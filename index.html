@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LynQR - Premium Neckbands Collection</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+        
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        
+        .logo {
+            height: auto;
+            max-width: 200px;
+            width: 100%;
+            max-height: 80px;
+            object-fit: contain;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            margin: 10px 0 0;
+            font-size: 2.2em;
+            color: #fff;
+        }
+        
+        .company-name {
+            font-weight: bold;
+            color: #f39c12;
+        }
+        
+        .tagline {
+            font-style: italic;
+            margin-top: 5px;
+            color: #ecf0f1;
+            font-size: 1.1em;
+        }
+        
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        
+        .product img {
+            max-width: 100%;
+            height: 180px;
+            object-fit: contain;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .product h3 {
+            color: #2c3e50;
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+        
+        .price {
+            font-weight: bold;
+            color: #e74c3c;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        
+        .features {
+            text-align: left;
+            margin: 15px 0;
+            font-size: 0.9em;
+            padding-left: 20px;
+        }
+        
+        .features li {
+            margin-bottom: 8px;
+            position: relative;
+        }
+        
+        .features li:before {
+            content: "•";
+            color: #f39c12;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        
+        .coming-soon {
+            background-color: #f39c12;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        .contact-info {
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        
+        .social-icons {
+            margin-top: 15px;
+        }
+        
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            .tagline {
+                font-size: 1em;
+            }
+            .logo {
+                max-width: 150px;
+            }
+            .product {
+                width: 100%;
+                max-width: 350px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            .logo {
+                max-width: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Logo container for better control -->
+            <div class="logo-container">
+                <img src="logo.png" alt="LynQR Logo" class="logo">
+            </div>
+            <h1><span class="company-name">LynQR</span> System</h1>
+            <p class="tagline">Wireless Audio Redefined</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="products">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="maina.jpeg" alt="LynQR Bass Pro Neckband">
+                <h3>LynQR Bass Pro</h3>
+                <div class="price">₹1,299</div>
+                <ul class="features">
+                    <li>30 Hours Playback</li>
+                    <li>Deep Bass Technology</li>
+                    <li>IPX5 Sweat Resistance</li>
+                    <li>Bluetooth 5.3</li>
+                    <li>Magnetic Earbuds</li>
+                </ul>
+                <div class="coming-soon">Coming Soon</div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="download (1).jfif" alt="LynQR Air Lite Neckband">
+                <h3>LynQR Air Lite</h3>
+                <div class="price">₹1,599</div>
+                <ul class="features">
+                    <li>Ultra Lightweight (25g)</li>
+                    <li>40 Hours Battery Life</li>
+                    <li>Environmental Noise Cancellation</li>
+                    <li>Quick Charge (10min = 5hrs)</li>
+                    <li>Voice Assistant Support</li>
+                </ul>
+                <div class="coming-soon">Coming Soon</div>
+            </div>
+            
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="download (2).jfif" alt="LynQR Sport X Neckband">
+                <h3>LynQR Sport X</h3>
+                <div class="price">₹1,199</div>
+                <ul class="features">
+                    <li>IPX7 Waterproof</li>
+                    <li>Secure Neckband Design</li>
+                    <li>24hrs Playtime</li>
+                    <li>HD Voice Calls</li>
+                    <li>Sweatproof Coating</li>
+                </ul>
+                <div class="coming-soon">Coming Soon</div>
+            </div>
+            
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="download11.png" alt="LynQR Elite Max Neckband">
+                <h3>LynQR Elite Max</h3>
+                <div class="price">₹2,199</div>
+                <ul class="features">
+                    <li>Hybrid Active Noise Cancellation</li>
+                    <li>50 Hours Playback</li>
+                    <li>Premium Metallic Finish</li>
+                    <li>Dual Pairing</li>
+                    <li>Touch Controls</li>
+                </ul>
+                <div class="coming-soon">Coming Soon</div>
+            </div>
+            
+            <!-- Product 5 -->
+            <div class="product">
+                <img src="download.jfif" alt="LynQR Beat Pro Neckband">
+                <h3>LynQR Beat Pro</h3>
+                <div class="price">₹899</div>
+                <ul class="features">
+                    <li>Value for Money</li>
+                    <li>20 Hours Playtime</li>
+                    <li>Enhanced Bass</li>
+                    <li>Comfortable Fit</li>
+                    <li>Multiple Color Options</li>
+                </ul>
+                <div class="coming-soon">Coming Soon</div>
+            </div>
+            
+            <!-- Product 6 -->
+            <div class="product">
+                <img src="closeup-image-neckband-headphones-closeup-image-neckband-headphones-191963702.webp" alt="LynQR Quantum Neckband">
+                <h3>LynQR Quantum</h3>
+                <div class="price">₹1,899</div>
+                <ul class="features">
+                    <li>Low Latency Gaming Mode</li>
+                    <li>Immersive 3D Audio</li>
+                    <li>35 Hours Battery</li>
+                    <li>Detachable Boom Mic</li>
+                    <li>RGB Lighting</li>
+                </ul>
+                <div class="coming-soon">Coming Soon</div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <h3>LynQR</h3>
+            <p>Premium Audio Wearables</p>
+            <div class="contact-info">
+                <p>Email: amankaim.555@gmail.com</p>
+                <p>Phone: +91 7302218379</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2025 LynQR. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Font Awesome for icons (optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</body>
+</html>
